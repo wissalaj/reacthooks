@@ -18,7 +18,7 @@ const AddMovie =(props)=> {
     const handleClick=(nextValue, prevValue, name)=>{setAdd({...add,[name]:nextValue})}
     return (
     <>
-        <Button variant="primary" onClick={handleShow}>ADD movie</Button>
+        <Button style={{backgroundColor:"blue"}} variant="primary" onClick={handleShow}>ADD movie</Button>
       <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>ADD NEW MOVIE</Modal.Title>
